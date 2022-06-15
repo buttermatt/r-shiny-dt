@@ -47,8 +47,6 @@ server <- function(input, output) {
   ))
   
   
-  # Random comment
-  
   output$containerTable <- DT::renderDataTable(data, container = sketch, rownames = FALSE)
 }
 
